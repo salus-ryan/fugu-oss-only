@@ -1,0 +1,28 @@
+# Core
+torch>=2.1.0
+transformers>=4.40.0
+numpy>=1.24.0
+
+# Worker pool backends
+ollama>=0.3.0
+litellm>=1.40.0
+
+# Training (sep-CMA-ES)
+cma>=4.0.0
+
+# Serving
+fastapi>=0.111.0
+uvicorn>=0.30.0
+pydantic>=2.7.0
+
+# Efficient fine-tuning
+peft>=0.11.0
+accelerate>=0.30.0
+
+# Evaluation
+datasets>=2.19.0
+
+# Utilities
+httpx>=0.27.0
+jsonlines>=4.0.0
+pyyaml>=6.0.0
